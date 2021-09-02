@@ -1,0 +1,146 @@
+<link rel = "preconnect" href = "https://fonts.gstatic.com">
+<link href = "https://fonts.googleapis.com/css2? family = Hammersmith + One & display = swap" rel = "folha de estilo">
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FFFBED;
+}
+
+#contato {
+	text-decoration: underline;
+	color: #912D25
+}
+
+#menu {
+	padding-left: 60px;
+	background: #ffe0d8;
+}
+
+#menu ul, li {
+	list-style: none;
+	display: inline;
+}
+
+#menu ul, li, a {
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Hammersmith One', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 23px;
+	display: inline-block;
+	margin: 0 40px 0 0;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-color: #763E2A;
+	font-size: 25px;
+}
+
+.titulo {
+	text-align: center;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+label {
+	font-family: 'Hammersmith One', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+input {
+	width: 200px;
+	padding: 5px;
+}
+
+form {
+	margin: 40px 0;
+	padding-left: 50px;
+}
+
+.input-padrão {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 25px;
+	width: 300px;	
+}
+
+#enviar {
+	width: 200px;
+	padding: 15px 0;
+	background: #bc434f;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;	
+	transition: 1s background;
+	cursor: pointer;
+	margin-left: 70px;
+}
+
+#enviar:hover {
+	background: #a23a44;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #a23a44;
+	color: white;
+	font-weight: bold;
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 15px 40px;
+	font-weight: bold;
+	font-family: 'Hammersmith One', sans-serif;
+	text-align: center;
+}
+
+iframe {
+	padding-left: 22%;
+}
+
+.mapa {
+	background: linear-gradient(#FFFBED, #ffe0d8);
+	padding-bottom: 30px;
+}
+
+.mapa .circle {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:  0;
+	left: 0;
+	background: #F1D7D2;
+	clip-path: circle(20% at right 100px);
+	z-index: -1;
+}
+
+.image .cir {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	bottom:  0;
+	right: 0;
+	background: #e4afa7;
+	clip-path: circle(15% at left 70%);
+	z-index: -1;
+}

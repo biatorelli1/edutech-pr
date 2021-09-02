@@ -1,0 +1,118 @@
+<link rel = "preconnect" href = "https://fonts.gstatic.com">
+<link href = "https://fonts.googleapis.com/css2? family = Hammersmith + One & display = swap" rel = "folha de estilo">
+ 
+body {
+	 background: #FFFBED;
+}
+
+#sorvete {
+	text-decoration: underline;
+	color: #912D25
+}
+
+#menu {
+	padding-left: 60px;
+	background: #ffe0d8;
+}
+
+#menu ul, li {
+	list-style: none;
+	display: inline;
+}
+
+#menu ul, li, a {
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Hammersmith One', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 23px;
+	display: inline-block;
+	margin: 0 40px 0 0;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-color: #763E2A;
+	font-size: 25px;
+}
+
+li {
+	text-decoration: none;
+}
+
+#tipos a {
+	color: #763E2A;
+	padding-left: 290px;
+	text-decoration: underline;
+	font-size: 27px;	
+}
+
+#tipos a:hover {
+	font-size: 29px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Hammersmith One', sans-serif;
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+
+
+.produtos {
+	width: 950px;
+	padding: 5px 140px;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	margin: 0 1.5%;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #AB3000;
+}
+
+.produtos li:hover h2 {
+	font-size: 30px;
+}
+
+.produtos h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.descricao {
+	font-size: 18px;
+}
+
+#menta {
+	font-size: 14px;
+}
+
+.preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+img {
+	width: 235px;
+	height: 220px;
+}
+
+h1:hover {
+	font-size: 35px;
+}
+
+#massa {
+	background: linear-gradient(#FFFBED 90%, #ffe0d8);
+}
+

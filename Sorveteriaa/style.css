@@ -1,0 +1,97 @@
+<link rel = "preconnect" href = "https://fonts.gstatic.com">
+<link href = "https://fonts.googleapis.com/css2? family = Hammersmith + One & display = swap" rel = "folha de estilo">
+
+body {
+	background: #FFFBED;
+}
+
+#home {
+	text-decoration: underline;
+	color: #912D25
+}
+
+
+#menu {
+	padding-left: 60px;
+	background: #ffe0d8;
+}
+
+#menu ul, li {
+	list-style: none;
+	display: inline;
+}
+
+#menu ul, li, a {
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Hammersmith One', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 23px;
+	display: inline-block;
+	margin: 0 40px 0 0;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-color: #763E2A;
+	font-size: 25px;
+}
+
+.capa {
+	position: absolute;
+}
+
+.titulo {
+	font-family: 'Hammersmith One', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 70px;
+	padding: 150px 0 0 190px;
+	position: absolute;
+	text-shadow: 4px 3px 3px #ff876a;
+}
+
+.titulo:hover {
+	font-size: 73px;
+}
+
+img {
+	height: 568px;
+	padding-left: 700px;
+}
+
+.images .circle {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:  0;
+	left: 0;
+	background: #F1D7D2;
+	clip-path: circle(20% at right 20%);
+	z-index: -1;
+}
+
+.ima .circ {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	bottom:  0;
+	right: 0;
+	background: #ecc1cf;
+	clip-path: circle(15% at 65% 100%);
+	z-index: -1;
+}
+
+.image .cir {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	bottom:  0;
+	right: 0;
+	background: #e4afa7;
+	clip-path: circle(15% at left 95%);
+	z-index: -1;
+}
+
+
